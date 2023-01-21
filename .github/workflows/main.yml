@@ -1,5 +1,6 @@
 name: App Deploy To Github Pages
-
+permissions:
+  contents: write
 on:
   push:
     branches: [ main ]
